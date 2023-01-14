@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "DMserif";
+  src: url(../fonts/DMSerifDisplay-Regular.woff2) format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "DMserif";
+  src: url(../fonts/DMSerifDisplay-Italic.woff2) format("woff2");
+  font-style: italic;
+}
+@font-face {
+  font-family: "InterTight";
+  src: url(../fonts/InterTight-Light.woff2) format("woff2");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "InterTight";
+  src: url(../fonts/InterTight-Regular.woff2) format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "InterTight";
+  src: url(../fonts/InterTight-Medium.woff2) format("woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "InterTight";
+  src: url(../fonts/InterTight-SemiBold.woff2) format("woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "InterTight";
+  src: url(../fonts/InterTight-Bold.woff2) format("woff2");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Pretendard_thin";
+  src: url(../fonts/Pretendard-Thin.subset.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Pretendard_regular";
+  src: url(../fonts/Pretendard-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Pretendard_semibold";
+  src: url(../fonts/Pretendard-SemiBold.woff) format("woff");
+}
+@font-face {
+  font-family: "Pretendard_medium";
+  src: url(../fonts/Pretendard-Medium.woff) format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #1d1d1d;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+/* 폰트 초기화 */
+
+body {
+  font-family: "InterTight", "Pretendard", sans-serif;
+}
+
+.dmserif {
+  font-family: "DMserif";
+}
+
+.intertight {
+  font-family: "InterTight";
+}
+
+.pretendard_thin {
+  font-family: "Pretendard_thin";
+}
+
+.pretendard_regular {
+  font-family: "Pretendard_regular";
+}
+
+.pretendard_medium {
+  font-family: "Pretendard_medium";
+}
+
+.pretendard_semibold {
+  font-family: "Pretendard_semibold";
+}
+
+.font-strong {
+  color: #1d1d1d;
+  font-weight: bolder;
+}
+
+.font-regular {
+  font-size: 18px;
+}
+
+.font-semi {
+  font-size: 24px;
+}
+
+.font-medium {
+  color: #111;
+  font-size: 36px;
+}
+
+.font-large {
+  font-size: 72px;
+  color: #1d1d1d;
+}
+
+/* margin-top 초기화 */
+.mt15 {
+  margin-top: 15px !important;
+}
+
+.mt30 {
+  margin-top: 30px !important;
+}
+
+.mt45 {
+  margin-top: 45px !important;
+}
+
+.mt60 {
+  margin-top: 60px !important;
+}
+
+.mt80 {
+  margin-top: 80px !important;
+}
+
+.mt100 {
+  margin-top: 100px !important;
+}
+
+/* letter-spacing reset */
